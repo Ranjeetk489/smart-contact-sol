@@ -22,7 +22,6 @@ describe("Hero", function () {
 
         await hero.setRandom(69);
         await hero.createHero(0, {
-            value: ethers.utils.parseEther("0.05")
         });
         const heroes = (await hero.getHeroes())[0];
         expect(await hero.getMagic(heroes)).to.equal(16);
