@@ -1,44 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "G:\\Blockchain Resources\\FEM web3\\jpegdegens\\contracts\\HelloWorld.sol": {
-      "lastModificationDate": 1645443618075,
-      "contentHash": "40101b9ead9c3ee6e5cdbefcf124cb87",
-      "sourceName": "contracts/HelloWorld.sol",
-      "solcConfig": {
-        "version": "0.8.10",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "HelloWorld"
-      ]
-    },
-    "G:\\Blockchain Resources\\FEM web3\\jpegdegens\\contracts\\Counter.sol": {
-      "lastModificationDate": 1645455814942,
-      "contentHash": "341f3837aaa12ba9e0a536d3fda27827",
+    "/workspace/smart-contact-sol/contracts/Counter.sol": {
+      "lastModificationDate": 1645542020045,
+      "contentHash": "d2015cd075276101a532ae1034b8c8e5",
       "sourceName": "contracts/Counter.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -73,8 +38,8 @@
         "Counter"
       ]
     },
-    "G:\\Blockchain Resources\\FEM web3\\jpegdegens\\node_modules\\hardhat\\console.sol": {
-      "lastModificationDate": 1645446157532,
+    "/workspace/smart-contact-sol/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1645542087114,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
@@ -108,9 +73,44 @@
         "console"
       ]
     },
-    "G:\\Blockchain Resources\\FEM web3\\jpegdegens\\contracts\\Hero.sol": {
-      "lastModificationDate": 1645508350879,
-      "contentHash": "073d8d705ab76abde9c15e0611db23d0",
+    "/workspace/smart-contact-sol/contracts/HelloWorld.sol": {
+      "lastModificationDate": 1645542020045,
+      "contentHash": "ab86c39d95a5b5b22b8d0391a20ff31f",
+      "sourceName": "contracts/HelloWorld.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    },
+    "/workspace/smart-contact-sol/contracts/Hero.sol": {
+      "lastModificationDate": 1645606191302,
+      "contentHash": "b0f5f9c8401435361977f63d8619cc45",
       "sourceName": "contracts/Hero.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -141,6 +141,43 @@
       ],
       "artifacts": [
         "Hero"
+      ]
+    },
+    "/workspace/smart-contact-sol/contracts/TestHero.sol": {
+      "lastModificationDate": 1645605353313,
+      "contentHash": "c147b65747f30f504ce1386d6356a831",
+      "sourceName": "contracts/TestHero.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Hero.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TestHero"
       ]
     }
   }
